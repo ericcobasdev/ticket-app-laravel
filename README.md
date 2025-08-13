@@ -3,7 +3,7 @@
 [![Laravel](https://img.shields.io/badge/Laravel-11-FF2D20?logo=laravel&logoColor=white)](https://laravel.com)
 [![PHP](https://img.shields.io/badge/PHP-8.3-777BB4?logo=php&logoColor=white)](https://www.php.net/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![GitHub last commit](https://img.shields.io/github/last-commit/TU_USUARIO/ticket-app-laravel)](https://github.com/ericcobasdev/ticket-app-laravel)
+[![GitHub last commit](https://img.shields.io/github/last-commit/ericcobasdev/ticket-app-laravel)](https://github.com/ericcobasdev/ticket-app-laravel)
 
 Aplicación de gestión de tickets desarrollada con **Laravel 11**, **Inertia.js** y **Tailwind CSS**, que incluye autenticación, roles, panel de administración con estadísticas y un flujo de estados realista para soporte técnico.  
 
@@ -32,9 +32,17 @@ Aplicación de gestión de tickets desarrollada con **Laravel 11**, **Inertia.js
 ## 📸 Capturas de pantalla
 
 ![Login](docs/login.png)
+
+---
 ![Listado de tickets](docs/listado-tickets.png)
+
+---
 ![Solucion de ticket](docs/tickets-asignados.png)
+
+---
 ![Dashboard](docs/dashboard.png)
+
+---
 ![Formulario de ticket](docs/form-ticket.png)
 
 
