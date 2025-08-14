@@ -8,6 +8,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\TicketController;
 use App\Http\Middleware\IsAdmin;
 use App\Http\Middleware\IsTechnician;
+use App\Http\Controllers\Admin\DashboardStatsController;
 
 // Página de bienvenida (pública)
 Route::get('/', function () {
@@ -45,6 +46,7 @@ Route::middleware('auth')->group(function () {
     Route::middleware([IsAdmin::class])->group(function () {
         Route::put('/tickets/{ticket}/assign', [TicketController::class, 'assign'])->name('tickets.assign');
         Route::get('/admin/dashboard', [TicketController::class, 'dashboard'])->name('admin.dashboard');
+        Route::get('/admin/dashboard/stats', [DashboardStatsController::class, 'ticketStatus']);
     });
 
     // Rutas solo para TÉCNICO

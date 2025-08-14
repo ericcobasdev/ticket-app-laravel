@@ -1,12 +1,16 @@
 <script setup>
 import { defineProps } from 'vue'
 import AppLayout from '@/Layouts/AppLayout.vue'
+import TicketStatusChart from './Components/TicketStatusChart.vue'
 defineOptions({ layout: AppLayout })
 
 const props = defineProps({
   stats: Object
 })
 </script>
+
+
+
 
 <template>
   <div>
@@ -32,8 +36,8 @@ const props = defineProps({
     </div>
 
     <!-- Espacio para gráfico -->
-    <div class="bg-white p-6 rounded shadow text-center text-gray-500">
-     agregar un gráfico de barras o pastel más adelante.
+    <div class="bg-white p-6 rounded shadow text-center text-gray-500">      
+      <TicketStatusChart />    
     </div>
   </div>
 </template>

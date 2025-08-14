@@ -60,14 +60,14 @@
         <div class="mt-2 flex gap-2">
           <Link
             :href="`/tickets/${ticket.id}/edit`"
-            class="text-blue-600 underline"
+            class="bg-blue-600 text-white px-3 py-1 rounded text-sm"
           >
             Editar
           </Link>
 
           <button
             @click="deleteTicket(ticket.id)"
-            class="text-red-600 underline"
+            class="bg-orange-600 text-white px-3 py-1 rounded text-sm"
           >
             Eliminar
           </button>
