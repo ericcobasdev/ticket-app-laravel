@@ -1,17 +1,20 @@
-# 🎟️ Ticket App (Laravel)
+# 🎫 Ticket Management System (Laravel 11)
 
 [![Laravel](https://img.shields.io/badge/Laravel-11-FF2D20?logo=laravel&logoColor=white)](https://laravel.com)
 [![PHP](https://img.shields.io/badge/PHP-8.3-777BB4?logo=php&logoColor=white)](https://www.php.net/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ericcobasdev/ticket-app-laravel)](https://github.com/ericcobasdev/ticket-app-laravel)
 
-Aplicación de gestión de tickets desarrollada con **Laravel 11**, **Inertia.js** y **Tailwind CSS**, que incluye autenticación, roles, panel de administración con estadísticas y un flujo de estados realista para soporte técnico.  
+A modern ticket management system built with Laravel 11, designed to simulate a real-world helpdesk platform with role-based access, workflow management and administrative dashboard.
+
+This project demonstrates how to build a scalable and secure web application using Laravel, following best practices for backend architecture and full-stack integration.
 
 ---
 
 ## 🚀 Tecnologías utilizadas
 - **Backend:** PHP 8.3 · Laravel 11 · MySQL
 - **Frontend:** Inertia.js · Vue.js · Tailwind CSS
+- **Architecture:** MVC · RESTful design
 - **Gráficos:** Chart.js
 - **Control de acceso:** Middleware y Policies
 - **Testing:** PHPUnit · Pest
@@ -28,6 +31,25 @@ Aplicación de gestión de tickets desarrollada con **Laravel 11**, **Inertia.js
 - Validaciones estrictas con Form Requests
 
 ---
+
+## 🧠 Technical Highlights
+
+- Clean MVC architecture following Laravel best practices
+- Role-based authorization using middleware and policies
+- FormRequest validation for cleaner controllers
+- Eloquent relationships and optimized database queries
+- Separation between backend (Laravel) and frontend (Vue via Inertia)
+- Real-world business logic implementation
+
+---
+
+## 🎯 What this project demonstrates
+
+- Full-stack application development with Laravel and Vue.js
+- Authentication and role-based access control
+- Implementation of real-world workflows (ticket lifecycle)
+- Admin dashboard with data visualization
+- Clean and maintainable backend architecture
 
 ## 📸 Capturas de pantalla
 
@@ -51,7 +73,7 @@ Aplicación de gestión de tickets desarrollada con **Laravel 11**, **Inertia.js
 ## 🛠️ Instalación local
 ```bash
 # Clonar el repositorio
-git clone https://github.com/TU_USUARIO/ticket-app-laravel.git
+git clone https://github.com/ericcobasdev/ticket-app-laravel.git
 cd ticket-app-laravel
 
 # Instalar dependencias
